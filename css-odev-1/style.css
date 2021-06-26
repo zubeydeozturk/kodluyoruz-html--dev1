@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fcfbf8;
+}
+h1{
+    font-size: 40px;
+    font-weight:600 ;
+    font-style: italic;
+    color: #98d7c2;
+    text-align: center;
+    padding-top: 20px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    
+}
+.menu ul .title {
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.menu ul li a{
+    color: #efd091;
+    font-size: 18px;
+    
+}
+.baslik ,h2{
+    font-size: 20px;
+    font-weight: 400;
+    color: #145DA0;
+    text-align: center;
+    padding-top: 10px;
+}
+.icerik {
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+}
+nav {
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: flex;
+}
+div {
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: block;
+    text-align: center;
+    flex-direction: column;
+    
+}
+.rsm {
+    width: 20%;
+    height: auto;
+}
+span{
+    padding: 20px;
+    margin: 10px;
+}
+p{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    margin: 15px;
+}
+h3 {
+    padding-top: 5px;
+    color: #FAD02C;
+    margin-left: 10px;
+}
